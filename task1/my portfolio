@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f0f0f0;
+    text-align: center;
+}
+header {
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+nav {
+    background: black;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    color: navy;
+}
+button {
+    background: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+section:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>My Portfolio</h1>
+<p>Welcome to My Personal Website</p>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="about">
+<h2>About Me</h2>
+<p>My name is Rachana. I am a student.</p>
+<p>I am interested in learning technology.</p>
+</section>
+<section id="skills">
+<h2>Technical Skills</h2>
+<p>HTML, CSS, Python, Java</p>
+</section>
+<section id="projects">
+<h2>My Projects</h2>
+<p>Portfolio Website and College Website</p>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: student@gmail.com</p>
+<button>Contact Me</button>
+</section>
+<footer>
+<p>My Portfolio © 2026</p>
+</footer>
+</body>
+</html>
