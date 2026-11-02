@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Website</title>
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f2f2f2;
+}
+header {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background: black;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+}
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+h2 {
+    color: darkblue;
+}
+.card {
+    background: lightblue;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>ABC Engineering College</h1>
+<p>Welcome to Our College</p>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#courses">Courses</a>
+<a href="#admission">Admissions</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="home">
+<h2>About Our College</h2>
+<p>Our college provides quality education.</p>
+</section>
+<section id="courses">
+<h2>Departments</h2>
+<div class="card">Computer Science</div>
+<div class="card">Electronics</div>
+<div class="card">Mechanical Engineering</div>
+</section>
+<section id="admission">
+<h2>Admissions</h2>
+<p>Admissions are open for new students.</p>
+<button>Apply Now</button>
+</section>
+<section id="contact">
+<h2>Contact Information</h2>
+<p>Email: abccollege@gmail.com</p>
+<p>Phone: 9876543210</p>
+</section>
+<footer>
+<p>ABC College © 2026</p>
+</footer>
+</body>
+</html>
